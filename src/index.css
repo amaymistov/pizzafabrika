@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .table-td {
+        @apply break-words p-2 px-4 text-left text-base text-gray-900;
+    }
+
+    .btn {
+        @apply flex md:ml-auto h-10 items-center justify-center rounded-md bg-green-500 px-8 text-white hover:bg-green-700;
+    }
+}
